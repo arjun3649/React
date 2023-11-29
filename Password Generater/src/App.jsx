@@ -29,6 +29,7 @@ function App() {
   let pass = "";
   let str = "ABCDEFGHIJKLMNIOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
   //useCallback is a React Hook that lets you cache a function definition between re-renders.
+  //useCallback hook is used when u have the component in which child is rerendering again and again.
   //It’s similar to memoization in JavaScript but with more built-in support for React.
   // it remembers the previous state of function and update accordingly.
   // in simple terms this hook is used to store everythihng in cache and memorize the state ,
